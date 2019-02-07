@@ -12,8 +12,8 @@ public class TextMsgExpander {
         System.out.println("");
 
         // Check for abbreviations
-       if (userLine.equals("BFF")) {
-           System.out.println("best friends forever");
+       if (userLine.indexOf("BFF") > -1) {
+           userLine = userLine.replace("BFF", "best friends forever" );
        } else if (userLine.equals("IDK")) {
            System.out.println("I don't know");
        } else if (userLine.equals("JK")) {
