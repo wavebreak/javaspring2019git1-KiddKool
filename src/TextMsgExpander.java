@@ -12,7 +12,20 @@ public class TextMsgExpander {
         System.out.println("");
 
         // Check for abbreviations
-       
+       if (userLine.equals("BFF")) {
+           System.out.println("best friends forever");
+       } else if (userLine.equals("IDK")) {
+           System.out.println("I don't know");
+       } else if (userLine.equals("JK")) {
+           System.out.println("just kidding");
+       } else if (userLine.equals("TMI")) {
+           System.out.println("too much information");
+        } else if (userLine.equals("TTYL")) {
+           System.out.println("talk to you later");
+       }
+
+
+
 
         // Output expanded text
         System.out.println("");
